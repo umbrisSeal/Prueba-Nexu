@@ -1,0 +1,22 @@
+{
+  "name": "pruebanexu",
+  "version": "1.0.0",
+  "description": "Prueba Tecnica Nexu",
+  "license": "ISC",
+  "author": "Alejandro Ruiz",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "npx nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
+  }
+}
