@@ -8,7 +8,7 @@ const populateDatabase = require('../utils/populateDatabase');
 mainRouter.use('/brands', brands);
 mainRouter.use('/models', models);
 
-mainRouter.get('/', async (req, res) => {
+mainRouter.post('/', async (req, res) => {
     console.log("Populating database...");
     const success = await populateDatabase();
 
